@@ -1,0 +1,120 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .month {
+    padding: 30px 0px;
+    height: 10px;
+    width: 100%;
+    background:white;
+    text-align: center;
+  }
+  
+  .month ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .month ul li {
+    color:black;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  .month .prev {
+    float: left;
+    padding-top: 10px;
+  }
+  
+  .month .next {
+    float: right;
+    padding-top: 10px;
+  }
+  
+  .weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+  }
+  
+  .weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: black;
+    text-align: center;
+  }
+  
+  .days {
+    padding: 10px 0;
+    background: white;
+    margin: 0;
+  }
+  
+  .days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color:grey;
+  }
+  
+  .days li .active {
+    padding: 5px;
+    background: grey;
+    color: white !important
+  }
+  
+  /* Add media queries for smaller screens */
+  @media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+  }
+  
+  @media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+  }
+  
+  @media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+  }
+
+  h4, h6 {
+    margin-left: 50px;
+  }
+  .calendar {
+    margin-left: 50px;
+    font-size: 1.5em;
+    margin-top: 10px;
+  }
+  .toggle-button {
+    color: #333;
+    background-color: #fff;
+    border-color: grey;
+    
+  }
+
+  .toggle-button:hover {
+    background-color: grey;
+    border-color: grey;
+  }
+  
+
+.table1 {
+  margin-left: 100px;
+  width:80%
+}
